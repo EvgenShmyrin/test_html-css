@@ -101,22 +101,20 @@ body {
 /*-----------------------------section1----------------------------------*/
 .section1{
     width: 1440px;
-    /*height: 2000px;*/
     background: #EFF0F3;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
 }
 .section1-1250{
+    padding: 0;
     width: 1250px;
-    height: 814px;
 }
 .section1>div{
     display: flex;
     gap: 116px;
 }
-.section-text{
-
+#section1-1250{
+    padding: 0;
 }
 .section-text h2{
     color: #2B2C34;
@@ -177,7 +175,6 @@ body {
     display: flex;
     gap: 20px;
 }
-
 .section1-1250 img{
     display: flex;
     width: 470px;
@@ -193,7 +190,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: #5f85f8;
+    background: #EFF0F3;
 }
 #section2-1250-top h3{
     color: #2B2C34;
