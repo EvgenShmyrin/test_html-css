@@ -20,7 +20,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-.next-wrapper{
+.main-header{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -267,6 +267,7 @@ body {
 .card:nth-child(3) img{
     width: 50px;
 }
+/*------------------------------------section3-------------------------------*/
 .section3{
     background: #FFFFFE;
     width: 100%;
@@ -296,6 +297,21 @@ body {
 .wrapper-section3 div p, a{
     font-size: 20px;
 }
+.text3-1{
+    color: #2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text3-2{
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
 .wrapper2-section3{
     display: flex;
     align-items: center;
@@ -306,7 +322,6 @@ body {
     justify-content: center;
     border-radius: 12px;
     background: #FFFFFE;
-    /*margin-bottom: 80px;*/
 }
 .wrapper2-section3 img{
     margin-bottom: 25px;
@@ -332,8 +347,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-#iq{
+.active:hover{
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background: #f8f7f7;
 }
 .men div{
     margin-top: 10px;
@@ -351,9 +367,6 @@ body {
     border-radius: 8px;
     background: #6246EA;
     border: none;
-    color: #FFFFFE;
-    /*width: 119px;*/
-    /*height: 25px;*/
     margin: 80px 0 80px 0;
     font-size: 20px;
     font-style: normal;
@@ -361,7 +374,10 @@ body {
     line-height: normal;
     text-transform: capitalize;
 }
-/*----------------------------------section3-----------------------------------*/
+.button-section3 button a{
+    color: #FFFFFE;
+}
+/*----------------------------------section4-----------------------------------*/
 .section4{
     background: #EFF0F3;
     width: 100%;
