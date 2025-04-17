@@ -8,11 +8,11 @@
 }
 body {
     width: 100vw;
-    /*height: 100vh;*/
     display: flex;
     justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0;
+    background: grey;
 }
 .wrapper {
     width: 1440px;
@@ -81,12 +81,12 @@ body {
     gap: 10px;
     margin-top: 22px;
 }
-.nav-button button span{
+.nav-button button span, .nav-button button{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.nav-button button{
+    width: 213px;
+    height: 44px;
     color: #FFFFFE;
     font-size: 18px;
     font-style: normal;
