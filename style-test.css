@@ -114,7 +114,7 @@ body {
     border: none;
 }
 
-.search:hover {
+.total-search:hover ul li{
     display: initial;
 }
 
